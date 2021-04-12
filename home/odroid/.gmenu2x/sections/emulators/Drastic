@@ -1,0 +1,11 @@
+title=NDS GAMES
+description=Spring Drastic
+icon=icons/drastic.png
+exec=retroarch
+params=-L /opt/libretro/spring/spring_drastic_standalone_libretro.so $1
+selectordir=/roms/nds/
+selectorfilter=.nds
+selectorscreens=images
+selectorbrowser=true
+perfMode=true
+wrapper=true

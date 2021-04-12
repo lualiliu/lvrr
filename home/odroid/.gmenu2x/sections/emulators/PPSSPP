@@ -1,0 +1,11 @@
+title=PSP GAMES
+description=Spring PPSSPP
+icon=icons/ppsspp.png
+exec=retroarch
+params=-L /opt/libretro/spring/spring_ppsspp_standalone_libretro.so $1
+selectordir=/roms/psp/
+selectorfilter=.iso,.cso,.ISO,.pbp,.PBP
+selectorscreens=images
+selectorbrowser=true
+perfMode=true
+wrapper=true

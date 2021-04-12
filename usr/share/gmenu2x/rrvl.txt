@@ -1,0 +1,55 @@
+RRVL
+====
+
+# Global Hotkeys
+
+Power: Sleep/wake
+F5 + Power: Shutdown
+F5 + Dpad Left/Right: Adjust volume
+F5 + Dpad Up/Down: Adjust brightness
+F5 + L1: Normal performance mode
+F5 + R1: Max performance mode
+F5 + L2: Turn on Wifi
+F5 + R2: Turn off Wifi
+
+# Setup Guide
+
+
+# Getting started
+
+1. Load Retroarch
+2. Goto Settings->WiFi and configure wifi
+3. In Online Updater download core info files first then download which cores you want
+
+# General info
+
+RetroArch BIOS files go in /roms/bios
+RetroArch saves are in /roms/saves
+
+These can also be changed in RetroArch or the retroarch.cfg file directly.
+
+# Updating the system
+
+Navigate to /roms/_rrvl/update. Reboot after update. In gmenu2x there is an update icon in Settings.
+
+
+# OPKs
+
+You can get opks from http://eple.us/retroroller/opks/ and put them in /roms/apps/
+
+
+# Set Timezone
+
+The default system timezone can be set by linking the timezone file to /etc/localtime:
+
+	sudo ln -sf /usr/share/zoneinfo/<timezone> /etc/localtime
+
+More information can be found in the Void Linux Handbook
+
+# CPU Overclock
+
+Disclaimer: Overclock at your own risk. We aren't responsible for any damages you may incur by doing so.
+
+Edit /boot/rrvl.conf and uncomment the 1.5GHz overclock then reboot.
+
+In SSH you can check your CPU stats using the cmmand ogainfo
